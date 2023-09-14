@@ -2,11 +2,14 @@ import React from 'react';
 
 const Projects = () => {
 
+  const siktappImg = "https://github.com/ebbaolss/IN2000-Sikt/raw/master/Sikt%20app.png?raw=true"
+
   const projects = [
     {
         title: 'IN2000 - Software Engineering med Prosjektarbeid',
         description: 'Gruppeprosjekt der vi brukte API fra Metrologisk Intitutt og laget en Android app som viser skylaget til fjelltopper i Norge',
         githubLink: 'https://github.com/ebbaolss/IN2000-Sikt.git',
+        img: siktappImg
     },
     {
       title: 'IN2030 - Prosjektoppgave i programmering Java',
@@ -38,6 +41,7 @@ const Projects = () => {
                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
+                <img src={project.img} alt='Profilbilde'/>
               </div>
             </div>
           ))}
