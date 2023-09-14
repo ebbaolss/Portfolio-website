@@ -4,23 +4,7 @@ const Cv = () => {
     return (
         <section id="cv">
             <div>
-                <h2>CV</h2>
-                <h5>Utdanning</h5>
-                <p>master, bachelor, ntg</p>
-                <h5>Arbeidserfaring</h5>
-                <p>Rebel, UiO, Eurosko, Europris, Gausta</p>
-                <h5>Verv</h5>
-                <p>navet, tekna, brewfi</p>
-                <h5>Frivillig Arbeid</h5>
-                <p>jentedagen, fadder</p>
-                <h5>Prestasjoner</h5>
-                <p>IN2000 prosjekt - kåret til en av årets beste apper <br/> 
-                Med på vinnerlaget i Bekk sin Labyrinten/kodekampen ved UiO vår 2023
-                </p>
-                <h5>Kompetanse</h5>
-                <p>Java, Python, C, Git, R, SQL</p>
-                <h5>Språk</h5>
-                <p>Norsk, Svensk, Engelsk, Tysk</p>
+                
                 <h5>Emner - Master</h5>
                 <ul>
                     <li>IN5320 - Development in platform ecosystems</li>

@@ -6,17 +6,22 @@ const Projects = () => {
     {
         title: 'IN2000 - Software Engineering med Prosjektarbeid',
         description: 'Gruppeprosjekt der vi brukte API fra Metrologisk Intitutt og laget en Android app som viser skylaget til fjelltopper i Norge',
-        githubLink: 'https://github.com/yourusername/project2',
+        githubLink: 'https://github.com/ebbaolss/IN2000-Sikt.git',
     },
     {
-        title: 'Musikk spiller - React',
-        description: 'Fulgt et kurs der man lager en musikkspiller nettside',
-        githubLink: 'https://github.com/yourusername/project2',
+      title: 'IN2030 - Prosjektoppgave i programmering Java',
+      description: 'Laget en interpret for et programmeringsspråk Asp',
+      githubLink: 'https://github.com/ebbaolss/IN2030.git',
+    },
+    {
+      title: 'Portfolio website',
+      description: '(this website)',
+      githubLink: 'https://github.com/ebbaolss/Portfolio-website.git',
     },
     {
         title: 'IN2140 - Introduksjon til operativsystemer og datakommunikasjon',
         description: 'Laget et UDP-basert chattjeneste på hjemmeeksamen',
-        githubLink: 'https://github.com/yourusername/project2',
+        githubLink: 'xx',
     },
   ];
 
